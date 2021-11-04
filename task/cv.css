@@ -6,7 +6,8 @@ body{
     align-items: center;
     min-height:100vh;
 }
-.container {
+.container 
+{
 
     position: relative;
     width: 100%;
@@ -78,7 +79,7 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
         list-style: none;
         position: relative;
         margin: 10px 0;
-        cursor: pointer;
+        
 
     }
  
@@ -167,11 +168,12 @@ p{
     color: #333;
 }
 
-
 .container .left_side {
     position: relative;
     background-color:rgb(31, 2, 59);
     padding: 40px;
+     
+    
 }
 .container .right_side{
     position: relative;
@@ -235,4 +237,15 @@ p{
         
     }
     
+}
+.social
+{
+    color:rgb(255, 255, 255);
+    padding-right:10px ;
+    padding-left: 0px;
+    
+}
+.icon
+{
+    padding-right: 10px;
 }
